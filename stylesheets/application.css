@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+.white-text {
+  color: #ffffff;
+}
+
 article,
 aside,
 details,
@@ -3711,15 +3715,36 @@ tbody.collapse.in {
   width: 320px;
   height: auto;
 }
+
+#full {
+  background: url("team.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @media screen and (max-width: 800px) {
   .jumbotron .img-iPhone {
     margin-top: 50px;
+  }
+  #full {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
   }
 }
 @media screen and (max-width: 480px) {
   .jumbotron .img-iPhone {
     width: 250px;
     height: auto;
+  }
+  #full {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
   }
 }
 @media screen and (max-width: 320px) {
