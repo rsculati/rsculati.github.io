@@ -3728,24 +3728,24 @@ tbody.collapse.in {
   .jumbotron .img-iPhone {
     margin-top: 50px;
   }
-  #full {
+  /*#full {
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-  }
+  }*/
 }
 @media screen and (max-width: 480px) {
   .jumbotron .img-iPhone {
     width: 250px;
     height: auto;
   }
-  #full {
+  /*#full {
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-  }
+  }*/
 }
 @media screen and (max-width: 320px) {
   .jumbotron .img-iPhone {
