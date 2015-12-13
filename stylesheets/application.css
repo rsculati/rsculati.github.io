@@ -94,6 +94,7 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-weight: 700;
 }
 
 mark {
@@ -6026,7 +6027,7 @@ tbody.collapse.in {
 }
 
 blockquote {
-  border-left: 10px solid #ccc;
+  border-left: none;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
@@ -6034,7 +6035,7 @@ blockquote {
 blockquote:before {
   color: #ccc;
   content: open-quote;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
